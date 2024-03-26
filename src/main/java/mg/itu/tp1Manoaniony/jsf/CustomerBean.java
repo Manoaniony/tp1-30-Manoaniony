@@ -4,8 +4,8 @@
  */
 package mg.itu.tp1Manoaniony.jsf;
 
-import jakarta.inject.Named;
 import jakarta.faces.view.ViewScoped;
+import jakarta.inject.Named;
 import jakarta.inject.Inject;
 import java.io.Serializable;
 import java.util.List;
@@ -18,6 +18,7 @@ import mg.itu.tp1Manoaniony.service.CustomerManager;
  * @author ramarolahymanoaniony
  */
 @Named(value = "customerBean")
+/*@RequestScoped*/
 @ViewScoped
 public class CustomerBean implements Serializable {
     private List<Customer> customerList;  
