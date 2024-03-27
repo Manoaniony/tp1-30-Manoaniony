@@ -10,7 +10,6 @@ import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.Query;
 import jakarta.transaction.Transactional;
 import java.util.List;
-import mg.itu.tp1Manoaniony.entity.Customer;
 import mg.itu.tp1Manoaniony.entity.Discount;
 
 /**
